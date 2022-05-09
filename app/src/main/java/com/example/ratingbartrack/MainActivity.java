@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         tv=findViewById(R.id.tv);
         set_result=findViewById(R.id.btnResult);
 
-        set_result.setOnClickListener( {
+        set_result.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String val=String.valueOf(RtBar.getRating());
