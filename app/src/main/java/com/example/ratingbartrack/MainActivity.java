@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         RtBar=findViewById(R.id.ratingbar);
-        tv=findViewById(R.id.tv);
+
         set_result=findViewById(R.id.btnResult);
 
         set_result.setOnClickListener( {
