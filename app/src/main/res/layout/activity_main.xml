@@ -37,5 +37,12 @@
 
     </Button>
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="354dp"
+        android:layout_height="40dp"
+        android:text="@string/find_the_value_by_clicking_on_result"
+        android:textSize="20sp" />
+
 
 </LinearLayout>
