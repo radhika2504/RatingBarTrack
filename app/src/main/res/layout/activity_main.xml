@@ -7,11 +7,12 @@
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".MainActivity">
-    
+
     <RatingBar
         android:id="@+id/ratingbar"
         android:layout_width="300dp"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        tools:ignore="SpeakableTextPresentCheck">
 
     </RatingBar>
 
@@ -43,6 +44,13 @@
         android:layout_height="40dp"
         android:text="@string/find_the_value_by_clicking_on_result"
         android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_my_calendar"
+        android:contentDescription="@string/imagebutton"/>
 
 
 </LinearLayout>

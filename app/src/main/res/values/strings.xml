@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">RatingBarTrack</string>
     <string name="find_the_value_by_clicking_on_result">Find the value by clicking on RESULT</string>
+    <string name="imagebutton">imageButton</string>
 </resources>
